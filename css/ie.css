@@ -1,0 +1,14 @@
+.top {
+	display: inline-block; 
+	top: 0;
+}
+.topContent {
+	display: inline-block;
+	top: 50%;
+	position: relative;
+}
+.wrapper {
+	display: inline-block;
+	top: -50%;
+	position: relative;
+}

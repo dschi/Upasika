@@ -1,0 +1,112 @@
+body {
+	background: url(../img/background.png) repeat-y center;
+	color: #54504E;
+}
+.top {
+	display: table;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+.topContent {
+	display: table-cell; 
+	vertical-align: middle;
+}
+.wrapper {
+	min-height: 550px;
+	overflow: visible;
+	width: 960px;
+	margin-left: auto; 
+	margin-right: auto; 
+	/*position: relative;
+	top: 50%;
+	margin-top: -250px;
+	height: 1px;
+	*/
+}
+.angel_1 {
+	position: absolute;
+	background: url(../img/angel_1.png);
+	width: 262px;
+	height: 165px;
+	top: 40px;
+	left: 120px;
+	z-index: -1;
+}
+.angel_2 {
+	position: absolute;
+	background: url(../img/angel_2.png);
+	width: 288px;
+	height: 188px;
+	top: 315px;
+	left: 438px;
+	z-index: -2;
+}
+.angel_3 {
+	position: absolute;
+	background: url(../img/angel_3.png);
+	width: 457px;
+	height: 207px;
+	top: 0px;
+	left: 385px;
+	z-index: -3;
+}
+h1 {
+	color: #E86272;
+	font-size: 28px;
+	margin-bottom: -12px;
+}
+h2 {
+	font-size: 20px;
+}
+a {
+	color: #E86272;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	color: #6DA274;
+}
+.navi {
+	text-align: right;
+	padding-top: 150px;
+}
+.navi ul {
+	list-style-type: none;
+}
+ul a {
+	color: #6DA274;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+}
+ul a:hover {
+	color: #FFD839;
+}
+.center_heading {
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	font-weight: bold;
+}
+.text_justify {
+	text-align: justify;
+}
+.profil_image {
+	float: left;
+    margin: 0 10px 10px 0;
+}
+#medialeBeratung {
+	font-weight: bold;	
+}
+#kontakt {
+	padding-top: 100px;
+	font-weight: bold;
+}
+#praesenzsitzungen {
+	padding-top: 60px;
+}
+#praesenzsitzungen p {
+	margin-bottom: 5px;
+}
