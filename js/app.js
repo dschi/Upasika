@@ -26,14 +26,13 @@ var app = {
 		var toload = [
 		    'img/angel_1.png',
 			'img/angel_2.png',
-			'img/angel_3.png',
+			'img/angel_3.png'
 		];
 		var loaded = 0;
 		var images = [];
 
 		var cb = function (ev) {
 			loaded++;
-			alert(loaded + " " + toload.length);
 			if (loaded >= toload.length) {
 				callback();
 			}
