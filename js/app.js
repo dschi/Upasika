@@ -33,6 +33,7 @@ var app = {
 
 		var cb = function (ev) {
 			loaded++;
+			alert(loaded + " " + toload.length);
 			if (loaded >= toload.length) {
 				callback();
 			}
